@@ -20,3 +20,27 @@
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+}
+
+.qrcode {
+    width: 90%;
+    height: 90%;
+    /* border-radius: 5px; */
+   /*  padding: 10px; */
+}
+.card {
+    background-color: white;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    box-sizing: border-box;
+    box-shadow: 10px 5px 5px hsl(216, 15%, 48%);
+}
