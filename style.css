@@ -1,8 +1,17 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 15px;
+    justify-content: center;
+}
+
 .outfit-sm {
-  font-family: "Outfit", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .outfit-lg {
@@ -10,7 +19,17 @@
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
-  }
+    font-size: 1.4rem;
+}
+
+.headline {
+    color: hsl(218, 44%, 22%);
+}
+
+.description {
+    color: hsl(216, 15%, 48%);
+    font-size: 1em;
+}
 
 .attribution {
     font-size: 11px;
@@ -21,26 +40,26 @@
     color: hsl(228, 45%, 44%);
 }
 
-body {
-    background-color: hsl(212, 45%, 89%);
+.content-card {
+    background-color: white;
+    width: 325px;
+    padding: 15px 15px 10px 15px;
     display: flex;
+    margin: 20px;
     flex-direction: column;
-    font-size: 15px;
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 13px hsl(211, 33%, 85%);
+    border-radius: 15px;
+
 }
 
 .qrcode {
-    width: 90%;
-    height: 90%;
-    /* border-radius: 5px; */
-   /*  padding: 10px; */
+    max-width: 100%;
+    border-radius: 15px;
 }
-.card {
-    background-color: white;
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    box-sizing: border-box;
-    box-shadow: 10px 5px 5px hsl(216, 15%, 48%);
+
+.text-container {
+    padding: 0 10px;
+    margin-bottom: 7px;
 }
